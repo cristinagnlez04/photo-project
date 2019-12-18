@@ -12,5 +12,4 @@ jobs:
         FTP_SERVER: share.multiplica.com
         FTP_USERNAME: sharemx
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        ARGS: --delete
-        # --delete arg will delete files on the server if you've deleted them in git
+        
