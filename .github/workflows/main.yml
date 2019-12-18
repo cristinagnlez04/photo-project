@@ -12,4 +12,5 @@ jobs:
         FTP_SERVER: share.multiplica.com
         FTP_USERNAME: sharemx
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        REMOTE_DIR: /chile/santander/cristi
         
