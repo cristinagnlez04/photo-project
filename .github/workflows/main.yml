@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      uses: cristinagnlez04/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: share.multiplica.com
         FTP_USERNAME: sharemx
