@@ -3,11 +3,11 @@ name: Publish Website
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
-    runs-on: macos
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: FTP-Deploy-Action
-      uses: cristinagnlez04/FTP-Deploy-Action@2.0.0
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: share.multiplica.com
         FTP_USERNAME: sharemx
